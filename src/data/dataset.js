@@ -1,378 +1,363 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "the-shawshank-redemption",
+    "name": "Um Sonho de Liberdade",
+    "shortDescription": "Prisioneiro busca liberdade em Um Sonho de Liberdade.",
+    "description": "Um banqueiro injustamente condenado à prisão busca a redenção através de uma amizade inesperada com um colega de cela. Este épico drama, dirigido por Frank Darabont, explora a esperança, a amizade e a busca pela liberdade. Ambientado em Shawshank, uma prisão sombria, o filme mergulha nos desafios enfrentados pelo protagonista, Andy Dufresne, enquanto ele enfrenta injustiças, forja conexões inesperadas e mantém a esperança contra todas as probabilidades. Com uma impressionante pontuação de 9.3 no IMDb, Um Sonho de Liberdade permanece como um testemunho poderoso da resiliência humana e da busca pela verdadeira redenção.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "releaseYear": 1994,
+      "runtimeStr": "2h 22min",
+      "imDbRating": 9.3,
+      "directorsName": "Frank Darabont",
+      "movieStars": "Tim Robbins, Morgan Freeman",
+      "movieGender": "Drama"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "the-godfather",
+    "name": "O Poderoso Chefão",
+    "shortDescription": "Família mafiosa liderada por Vito Corleone em O Poderoso Chefão.",
+    "description": "O Poderoso Chefão, dirigido por Francis Ford Coppola, é uma jornada monumental através do submundo da máfia italiana. Lançado em 1972, o filme segue Michael Corleone, interpretado por Al Pacino, enquanto ele é gradualmente envolvido nos intricados negócios da família após eventos violentos. Com uma pontuação de 9.2 no IMDb, O Poderoso Chefão é uma obra-prima aclamada por suas performances excepcionais, roteiro brilhante e cinematografia marcante. A narrativa rica e complexa explora temas de lealdade, poder e tragédia, solidificando seu lugar como um dos maiores filmes da história do cinema.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "releaseYear": 1972,
+      "runtimeStr": "2h 55min",
+      "imDbRating": 9.2,
+      "directorsName": "Francis Ford Coppola",
+      "movieStars": "Marlon Brando, Al Pacino",
+      "movieGender": "Policial, Drama"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "the-dark-knight",
+    "name": "Batman - O Cavaleiro das Trevas",
+    "shortDescription": "Batman enfrenta o Coringa em Batman - O Cavaleiro das Trevas.",
+    "description": "Batman - O Cavaleiro das Trevas, dirigido por Christopher Nolan, transcende o gênero de super-heróis, oferecendo uma experiência cinematográfica inigualável. Lançado em 2008, o filme mergulha no caos instaurado pelo lendário Coringa, interpretado magistralmente por Heath Ledger, enquanto Batman, interpretado por Christian Bale, enfrenta dilemas morais e desafios existenciais. Com uma pontuação de 9.0 no IMDb, O Cavaleiro das Trevas é uma obra-prima que redefine as expectativas do gênero, explorando temas de moralidade, caos e a dualidade humana de maneiras profundas e inovadoras.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "releaseYear": 2008,
+      "runtimeStr": "2h 32min",
+      "imDbRating": 9.0,
+      "directorsName": "Christopher Nolan",
+      "movieStars": "Christian Bale, Heath Ledger",
+      "movieGender": "Ação, Policial, Drama"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "the-godfather-ii",
+    "name": "O Poderoso Chefão II",
+    "shortDescription": "Ascensão de Michael Corleone em O Poderoso Chefão II.",
+    "description": "O Poderoso Chefão II, dirigido por Francis Ford Coppola, é uma obra-prima cinematográfica que continua a saga da família Corleone. Lançado em 1974, o filme entrelaça as histórias de Michael Corleone, interpretado por Al Pacino, e seu pai Vito, interpretado por Robert De Niro, explorando a ascensão ao poder e o legado da família. Com uma pontuação de 9.0 no IMDb, O Poderoso Chefão II é elogiado por suas performances excepcionais, narrativa complexa e impacto duradouro na história do cinema.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "releaseYear": 1974,
+      "runtimeStr": "3h 22min",
+      "imDbRating": 9.0,
+      "directorsName": "Francis Ford Coppola",
+      "movieStars": "Al Pacino, Robert De Niro",
+      "movieGender": "Policial, Drama"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "12-angry-men",
+    "name": "12 Homens e uma Sentença",
+    "shortDescription": "Deliberação de júri em caso de homicídio em 12 Homens e uma Sentença.",
+    "description": "12 Homens e uma Sentença, dirigido por Sidney Lumet, é um drama judicial intenso que se desenrola em uma sala de deliberação. Lançado em 1957, o filme examina o julgamento de um jovem acusado de assassinato, enquanto doze jurados confrontam suas próprias dúvidas e preconceitos. Com uma pontuação de 9.0 no IMDb, 12 Homens e uma Sentença é uma obra-prima atemporal que explora a complexidade da verdade, moralidade e responsabilidade individual, oferecendo uma reflexão profunda sobre o sistema judicial e a natureza humana.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BODRmNWRiYmUtNGM2Yy00NTgwLTgxNzMtMGExYzI5NjllNjBhXkEyXkFqcGdeQXVyMTAzMDM4MjM0.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "releaseYear": 1957,
+      "runtimeStr": "1h 36min",
+      "imDbRating": 9.0,
+      "directorsName": "Sidney Lumet",
+      "movieStars": "Henry Fonda, Lee J. Cobb",
+      "movieGender": "Policial, Drama"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "schindlers-list",
+    "name": "A Lista de Schindler",
+    "shortDescription": "Salvamento de judeus durante o Holocausto em A Lista de Schindler.",
+    "description": "A Lista de Schindler, dirigido por Steven Spielberg, é uma obra-prima emocional e impactante que narra a história verídica de Oskar Schindler durante o Holocausto. Lançado em 1993, o filme retrata a jornada do empresário alemão que salva a vida de mais de mil judeus. Com uma pontuação de 8.9 no IMDb, A Lista de Schindler é um testemunho comovente de coragem, humanidade e redenção em meio à brutalidade da guerra. As performances notáveis, a trilha sonora evocativa e a direção magistral solidificam seu lugar como uma das narrativas mais poderosas já contadas no cinema.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "releaseYear": 1993,
+      "runtimeStr": "3h 15min",
+      "imDbRating": 8.9,
+      "directorsName": "Steven Spielberg",
+      "movieStars": "Liam Neeson, Ben Kingsley",
+      "movieGender": "Biografia, Drama, História"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "tlotr-return-of-the-king",
+    "name": "O Senhor dos Anéis: O Retorno do Rei",
+    "shortDescription": "Frodo completa jornada para destruir anel em O Senhor dos Anéis: O Retorno do Rei.",
+    "description": "O Senhor dos Anéis: O Retorno do Rei conclui a épica trilogia dirigida por Peter Jackson. Na batalha final pela Terra Média, Frodo e Sam continuam a jornada para destruir o Um Anel enquanto Aragorn lidera as forças da luz contra Sauron. O filme é uma obra-prima cinematográfica, repleta de batalhas grandiosas, emoções intensas e momentos épicos. Com uma narrativa envolvente e personagens icônicos, esta conclusão épica da trilogia de J.R.R. Tolkien cativa o público com sua magia, coragem e a eterna luta entre o bem e o mal.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "releaseYear": 2003,
+      "runtimeStr": "3h 21min",
+      "imDbRating": 8.9,
+      "directorsName": "Peter Jackson",
+      "movieStars": "Elijah Wood, Viggo Mortensen",
+      "movieGender": "Ação, Aventura, Fantasia"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "pulp-fiction",
+    "name": "Pulp Fiction - Tempo de Violência",
+    "shortDescription": "Histórias interligadas de criminosos em Pulp Fiction - Tempo de Violência.",
+    "description": "Pulp Fiction - Tempo de Violência, dirigido por Quentin Tarantino, é uma obra-prima do cinema contemporâneo. Lançado em 1994, o filme entrelaça histórias de gangsters, boxeadores e assassinos de aluguel de maneira única. Com uma pontuação de 8.9 no IMDb, Pulp Fiction é conhecido por seu diálogo afiado, reviravoltas surpreendentes e trilha sonora memorável. A narrativa não linear e as performances marcantes, incluindo a icônica dança de Mia Wallace, tornam este filme uma experiência cinematográfica essencial que desafia convenções e define um estilo ousado e inovador.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "releaseYear": 1994,
+      "runtimeStr": "2h 34min",
+      "imDbRating": 8.9,
+      "directorsName": "Quentin Tarantino",
+      "movieStars": "John Travolta, Samuel L. Jackson",
+      "movieGender": "Policial, Drama"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "tlotr-fellowship-of-the-ring",
+    "name": "O Senhor dos Anéis: A Sociedade do Anel",
+    "shortDescription": "A jornada épica da Sociedade do Anel para destruir Um Anel.",
+    "description": "O Senhor dos Anéis: A Sociedade do Anel inicia a trilogia épica de Peter Jackson, adaptada da obra de J.R.R. Tolkien. A trama segue Frodo, um hobbit, e um grupo diversificado de personagens, incluindo Aragorn e Gandalf, que formam a Sociedade do Anel para destruir o perigoso Um Anel. A jornada leva-os através de paisagens deslumbrantes e confronta-os com ameaças mortais. Com uma narrativa rica, efeitos visuais espetaculares e a introdução do mundo fantástico da Terra Média, o filme estabelece um padrão elevado para a trilogia, cativando o público com uma história de coragem e amizade.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "releaseYear": 2001,
+      "runtimeStr": "2h 58min",
+      "imDbRating": 8.8,
+      "directorsName": "Peter Jackson",
+      "movieStars": "Elijah Wood, Ian McKellen",
+      "movieGender": "Ação, Aventura, Fantasia"
+
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "the-good-the-bad-and-the-ugly",
+    "name": "Três Homens em Conflito",
+    "shortDescription": "Conflitos intensos em busca de um tesouro enterrado.",
+    "description": "Três Homens em Conflito, dirigido por Sergio Leone, é um clássico do western spaghetti que se destaca pela narrativa envolvente e duelos épicos. Lançado em 1966, o filme segue três pistoleiros em busca de um tesouro enterrado durante a Guerra Civil Americana. Com uma pontuação de 8.8 no IMDb, Três Homens em Conflito é um épico cinematográfico que combina trama cativante, personagens memoráveis e uma trilha sonora icônica. A direção magistral de Leone e as performances marcantes consolidam este filme como um marco no gênero western.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "releaseYear": 1966,
+      "runtimeStr": "2h 58min",
+      "imDbRating": 8.8,
+      "directorsName": "Sergio Leone",
+      "movieStars": "Clint Eastwood, Lee Van Cleef",
+      "movieGender": "Aventura, Faroeste"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "forrest-gump",
+    "name": "Forrest Gump: O Contador de Histórias",
+    "shortDescription": "A extraordinária vida de Forrest Gump, um contador de histórias incomum.",
+    "description": "Forrest Gump: O Contador de Histórias, dirigido por Robert Zemeckis, é uma emocionante jornada através das décadas da história americana, vista pelos olhos de Forrest Gump. Lançado em 1994, o filme é uma mistura única de drama, comédia e reflexão sobre a vida. Com uma pontuação de 8.8 no IMDb, Forrest Gump é conhecido por sua narrativa cativante, performances notáveis de Tom Hanks e efeitos visuais inovadores. A história sincera e otimista de Forrest continua a encantar espectadores de todas as idades, tornando-se um clássico contemporâneo.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "releaseYear": 1994,
+      "runtimeStr": "2h 22min",
+      "imDbRating": 8.8,
+      "directorsName": "Robert Zemeckis",
+      "movieStars": "Tom Hanks, Robin Wright",
+      "movieGender": "Drama, Romance"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "fight-club",
+    "name": "Clube da Luta",
+    "shortDescription": "Descontentamento social leva a lutas clandestinas e uma busca pela identidade.",
+    "description": "Clube da Luta, dirigido por David Fincher, é uma exploração arrojada da psique humana. Lançado em 1999, o filme segue um homem desencantado, interpretado por Edward Norton, que forma um clube secreto de luta com o carismático Tyler Durden, interpretado por Brad Pitt. Com uma pontuação de 8.8 no IMDb, Clube da Luta é conhecido por suas reviravoltas chocantes, questionamentos existenciais e comentários sociais. A narrativa intensa e a cinematografia distinta solidificam este filme como um marco cultural que continua a desafiar as convenções e a provocar reflexões profundas.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "releaseYear": 1999,
+      "runtimeStr": "2h 19min",
+      "imDbRating": 8.8,
+      "directorsName": "David Fincher",
+      "movieStars": "Edward Norton, Brad Pitt",
+      "movieGender": "Drama"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "tlotr-two-towers",
+    "name": "O Senhor dos Anéis: As Duas Torres",
+    "shortDescription": "A continuação da épica jornada da Sociedade do Anel.",
+    "description": "O Senhor dos Anéis: As Duas Torres, dirigido por Peter Jackson, é a continuação emocionante da trilogia. Lançado em 2002, o filme mergulha nas jornadas paralelas de Frodo e seus companheiros enquanto a Terra Média enfrenta crescentes ameaças das forças das trevas. Com uma pontuação de 8.7 no IMDb, As Duas Torres é uma obra-prima visual com batalhas grandiosas, personagens complexos e uma narrativa que mantém os espectadores à beira de seus assentos, solidificando a trilogia como um épico inigualável.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "releaseYear": 2002,
+      "runtimeStr": "2h 59min",
+      "imDbRating": 8.7,
+      "directorsName": "Peter Jackson",
+      "movieStars": "Elijah Wood, Ian McKellen",
+      "movieGender": "Ação, Aventura, Fantasia"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "inception",
+    "name": "A Origem",
+    "shortDescription": "A exploração de sonhos e a complexidade da realidade.",
+    "description": "A Origem, dirigido por Christopher Nolan, é uma jornada cerebral de intriga e ação. Lançado em 2010, o filme segue Dom Cobb, interpretado por Leonardo DiCaprio, em uma missão para implantar uma ideia na mente de alguém através dos sonhos. Com uma pontuação de 8.8 no IMDb, A Origem é elogiado por suas sequências de ação inovadoras, narrativa intricada e performances excepcionais. A exploração da realidade distorcida e a busca pela verdade fazem deste filme uma experiência cinematográfica envolvente e inesquecível.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "releaseYear": 2010,
+      "runtimeStr": "2h 28min",
+      "imDbRating": 8.8,
+      "directorsName": "Christopher Nolan",
+      "movieStars": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+      "movieGender": "Ação, Aventura, Ficção Científica"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "the-empire-strikes-back",
+    "name": "Star Wars: Episódio V - O Império Contra-Ataca",
+    "shortDescription": "Os rebeldes enfrentam o Império Galáctico em uma batalha épica.",
+    "description": "Star Wars: Episódio V - O Império Contra-Ataca é a segunda parte da trilogia original de George Lucas. A saga continua com a Aliança Rebelde em fuga enquanto Darth Vader intensifica seus esforços para esmagar a rebelião. O filme destaca a jornada de Luke Skywalker em treinamento Jedi sob Yoda, enquanto Han Solo enfrenta desafios. Com reviravoltas surpreendentes, batalhas épicas e o impactante confronto entre Luke e Vader, 'O Império Contra-Ataca' é amplamente considerado o ápice da saga, oferecendo uma narrativa rica, desenvolvimento de personagens profundo e um final impactante que deixa os fãs ansiosos pela conclusão.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "releaseYear": 1980,
+      "runtimeStr": "2h 4min",
+      "imDbRating": 8.7,
+      "directorsName": "Irvin Kershner",
+      "movieStars": "Mark Hamill, Harrison Ford",
+      "movieGender": "Ação, Aventura, Fantasia"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "the-matrix",
+    "name": "Matrix",
+    "shortDescription": "Neo descobre a verdade sobre a realidade em um mundo controlado por máquinas.",
+    "description": "Matrix, dirigido pelos irmãos Wachowski, é um marco na ficção científica que desafia a percepção da realidade. Lançado em 1999, o filme segue Neo, interpretado por Keanu Reeves, enquanto ele descobre a verdade por trás da realidade virtual que o aprisiona. Com uma pontuação de 8.7 no IMDb, Matrix é conhecido por seus efeitos visuais inovadores, sequências de ação memoráveis e complexidade filosófica. A narrativa envolvente e a influência duradoura solidificam Matrix como uma obra-prima moderna e um divisor de águas no cinema.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "releaseYear": 1999,
+      "runtimeStr": "2h 16min",
+      "imDbRating": 8.7,
+      "directorsName": "The Wachowskis",
+      "movieStars": "Keanu Reeves, Laurence Fishburne",
+      "movieGender": "Ação, Ficção Científica"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "goodfellas",
+    "name": "Os Bons Companheiros",
+    "shortDescription": "Crime, lealdade e ascensão no submundo.",
+    "description": "Os Bons Companheiros, dirigido por Martin Scorsese, é um épico do crime que mergulha na ascensão e queda de gangsters. Lançado em 1990, o filme narra a vida de Henry Hill, interpretado por Ray Liotta, dentro da máfia italiana. Com uma pontuação de 8.7 no IMDb, Os Bons Companheiros destaca-se por sua narrativa frenética, performances excepcionais e a visão distintiva de Scorsese sobre o mundo do crime. A lealdade, a traição e as consequências são exploradas de maneira impactante, solidificando este filme como um clássico do gênero.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "releaseYear": 1990,
+      "runtimeStr": "2h 26min",
+      "imDbRating": 8.7,
+      "directorsName": "Martin Scorsese",
+      "movieStars": "Robert De Niro, Joe Pesci",
+      "movieGender": "Biografia, Policial, Drama"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "one-flew-over-the-cuckoos-nest",
+    "name": "Um Estranho no Ninho",
+    "shortDescription": "Conflitos em um hospital psiquiátrico liderados por um rebelde.",
+    "description": "Um Estranho no Ninho, dirigido por Milos Forman, é uma poderosa exploração da sanidade e da rebelião contra a conformidade. Lançado em 1975, o filme segue Randle McMurphy, interpretado por Jack Nicholson, enquanto ele desafia a autoridade em uma instituição mental. Com uma pontuação de 8.7 no IMDb, Um Estranho no Ninho é reconhecido por suas performances impactantes, especialmente de Nicholson, e pela reflexão profunda sobre a natureza humana. A narrativa habilmente construída e as questões sociais exploradas fazem deste filme um clássico duradouro e provocativo.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "releaseYear": 1975,
+      "runtimeStr": "2h 13min",
+      "imDbRating": 8.7,
+      "directorsName": "Milos Forman",
+      "movieStars": "Jack Nicholson, Louise Fletcher",
+      "movieGender": "Drama"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "se7en",
+    "name": "Seven: Os Sete Crimes Capitais",
+    "shortDescription": "Detetives perseguem um assassino em série em um thriller psicológico.",
+    "description": "Seven: Os Sete Crimes Capitais, dirigido por David Fincher, é um thriller psicológico arrebatador. Lançado em 1995, o filme segue os detetives David Mills e William Somerset, interpretados por Brad Pitt e Morgan Freeman, em uma caçada angustiante a um serial killer que opera com base nos sete pecados capitais. Com uma pontuação de 8.6 no IMDb, Seven é elogiado por sua atmosfera sombria, reviravoltas impactantes e performances excepcionais. A exploração profunda da natureza humana e a narrativa envolvente solidificam este filme como um clássico do suspense moderno.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "releaseYear": 1995,
+      "runtimeStr": "2h 7min",
+      "imDbRating": 8.6,
+      "directorsName": "David Fincher",
+      "movieStars": "Brad Pitt, Morgan Freeman",
+      "movieGender": "Crime, Drama, Mistério"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "its-a-wonderful-life",
+    "name": "A Felicidade Não se Compra",
+    "shortDescription": "Um anjo ajuda um homem a valorizar a vida em uma jornada emocional.",
+    "description": "A Felicidade Não se Compra, dirigido por Frank Capra, é um clássico atemporal que explora o significado da vida. Lançado em 1946, o filme segue George Bailey, interpretado por James Stewart, enquanto ele reflete sobre sua existência com a ajuda de um anjo. Com uma pontuação de 8.6 no IMDb, A Felicidade Não se Compra é conhecido por sua mensagem inspiradora, performances cativantes e impacto emocional duradouro. A narrativa envolvente e a direção magistral fazem deste filme uma celebração do espírito humano e um símbolo do poder do bem sobre o mal.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "releaseYear": 1946,
+      "runtimeStr": "2h 10min",
+      "imDbRating": 8.6,
+      "directorsName": "Frank Capra",
+      "movieStars": "James Stewart, Donna Reed",
+      "movieGender": "Drama, Família, Fantasia"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "seven-samurai",
+    "name": "Os Sete Samurais",
+    "shortDescription": "Aldeões contratam samurais para proteger sua vila em um épico clássico.",
+    "description": "Os Sete Samurais, dirigido por Akira Kurosawa, é um épico japonês que redefine o cinema de samurais. Lançado em 1954, o filme segue um grupo de samurais contratados para defender uma aldeia indefesa contra bandidos. Com uma pontuação de 8.6 no IMDb, Os Sete Samurais é aclamado por suas cenas de batalha magistrais, personagens complexos e exploração profunda de temas como honra e sacrifício. A influência duradoura e a maestria técnica tornam este filme uma referência essencial no mundo do cinema.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTkwY2I5NWMtMjNlNi00ZThjLWI4NzQtNDI4M2I4OGM1YjAzXkEyXkFqcGdeQXVyNzYxODE3NTQ@.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "releaseYear": 1954,
+      "runtimeStr": "3h 27min",
+      "imDbRating": 8.6,
+      "directorsName": "Akira Kurosawa",
+      "movieStars": "Toshiro Mifune, Takashi Shimura",
+      "movieGender": "Ação, drama"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "interstellar",
+    "name": "Interestelar",
+    "shortDescription": "Uma viagem interestelar para salvar a humanidade.",
+    "description": "Interestelar, dirigido por Christopher Nolan, é uma odisseia espacial emocionante. Em um futuro distópico, a Terra enfrenta uma crise agrícola, e um grupo de astronautas liderado por Cooper parte em uma missão interestelar para encontrar um novo lar para a humanidade. O filme explora temas de amor, tempo e sobrevivência, enquanto a equipe enfrenta desafios cósmicos e buracos de minhoca. Com visuais deslumbrantes, trilha sonora envolvente de Hans Zimmer e uma trama intricada que desafia a mente, Interestelar cativa o público, combinando ciência e emoção em uma experiência cinematográfica extraordinária.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "releaseYear": 2014,
+      "runtimeStr": "2h 49min",
+      "imDbRating": 8.6,
+      "directorsName": "Christopher Nolan",
+      "movieStars": "Matthew McConaughey, Anne Hathaway",
+      "movieGender": "Aventura, Ficção Científica"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "the-silence-of-the-lambs",
+    "name": "O Silêncio dos Inocentes",
+    "shortDescription": "Um agente do FBI busca por um serial killer com a ajuda de uma psiquiatra.",
+    "description": "O Silêncio dos Inocentes, dirigido por Jonathan Demme, é um thriller psicológico que deixa o público à beira do assento. Lançado em 1991, o filme segue a agente do FBI Clarice Starling, interpretada por Jodie Foster, enquanto ela busca a ajuda do brilhante, mas perturbador, Dr. Hannibal Lecter, interpretado por Anthony Hopkins, para capturar um serial killer. Com uma pontuação de 8.6 no IMDb, O Silêncio dos Inocentes é elogiado por suas performances intensas, atmosfera tensa e reviravoltas impactantes. A narrativa sombria e a abordagem visceral consolidam este filme como um clássico do gênero.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "releaseYear": 1991,
+      "runtimeStr": "1h 58min",
+      "imDbRating": 8.6,
+      "directorsName": "Jonathan Demme",
+      "movieStars": "Jodie Foster, Anthony Hopkins",
+      "movieGender": "Crime, Drama"
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "saving-private-ryan",
+    "name": "O Resgate do Soldado Ryan",
+    "shortDescription": "A busca por um soldado durante a Segunda Guerra Mundial.",
+    "description": "O Resgate do Soldado Ryan, dirigido por Steven Spielberg, é uma representação visceral e comovente da Segunda Guerra Mundial. Lançado em 1998, o filme segue o Capitão Miller, interpretado por Tom Hanks, em uma missão para encontrar e resgatar o Soldado James Ryan, interpretado por Matt Damon. Com uma pontuação de 8.6 no IMDb, O Resgate do Soldado Ryan é conhecido por suas cenas de batalha realistas, performances emocionantes e reflexão sobre o sacrifício humano. A narrativa poderosa e a direção habilidosa de Spielberg tornam este filme uma homenagem duradoura aos que lutaram durante o conflito.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+      "releaseYear": 1998,
+      "runtimeStr": "2h 49min",
+      "imDbRating": 8.6,
+      "directorsName": "Steven Spielberg",
+      "movieStars": "Tom Hanks, Matt Damon",
+      "movieGender": "Drama, Guerra"
     }
-  }
+  },
 ];
