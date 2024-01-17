@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- icones  -->
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/7c129e136e.js" crossorigin="anonymous"></script>-->
+  <!-- Favicon -->
+  <link rel="icon" href="./favicon.png" type="image/png" />
+
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <img class="header-image" src="img/banner.png" alt="Header Image" />
+      <h1>Principais escolhas</h1>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <nav>
+      <div class="container__text">
+        <h2>O que assistir</h2>
+        <p>Os melhores filmes para você assistir.</p>
+        <span class="titles_length">24 títulos</span>
+      </div>
+      <!-- Section Filtros -->
+      <div class="filtros">
+        <section class="section-search">
+          <form>
+            <span class="search-icon"><img class="fas fa-search" src="./img/icon-search.svg" alt="Icone de busca" /></span>
+            <input type="search" id="search" name="q" placeholder="Digite sua busca" />
+            <button type="submit">Search</button>
+            <!-- Botão de busca será oculto no css -->
+          </form>
+        </section>
+        <section class="section-filters">
+          <div class="container__ordering">
+            <label for="order" id="orderLabel" class="ordering"></label> 
+            <select id="order" name="order">
+              <option selected value="Classificação" disabled>
+                Classificação
+              </option>
+              <option value="avaliacao">Avaliação</option>
+              <option value="data">Data de Lançamento</option>
+              <option value="alfabetica">Alfabética</option>
+              <option value="genero">Gênero</option>
+              <option value="duracao">Tempo de Duração</option>
+            </select>
+
+            <a href="" class="ordenacao__icones">
+              <img id="orderIcon" src="./img/icon-arow.svg" alt="Icon ordenação" />
+              <!-- Icone de ordenação - trocar depois pela setinha certa -->
+            </a>
+
+            <button id="btn-limpar" data-testid="botao-limpar">
+              Limpar Filtros
+            </button>
+          </div>
+        </section>
+      </div>
+    </nav>
+    <!-- Section Cards -->
+    <section id="root">
+      <!--aqui vamos puxar os cards-->
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container__footer">
+      <div class="socialIcons">
+        <a href="https://www.github.com/" target="_blank">
+          <img id="githubIcon" src="./img/icon-github.svg" alt="Icon ordenação" />
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img id="linkedinIcon" src="./img/icon-linkedin.svg" alt="Icon ordenação" />
+        </a>
+      </div>
+      <p>dataverse© 2024 Desenvolvido por Elizabete e Lais</p>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
