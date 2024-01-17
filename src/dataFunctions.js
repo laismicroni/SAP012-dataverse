@@ -1,6 +1,6 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-export const Filtros = () => {
+export const Filtro = () => {
   return 'Filtros';
 };
 
