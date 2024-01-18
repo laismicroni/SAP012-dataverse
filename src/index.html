@@ -37,16 +37,24 @@
       <!-- Section Filtros -->
       <div class="filtros">
         <section class="section-search">
-          <form>
-            <span class="search-icon"><img class="fas fa-search" src="./img/icon-search.svg" alt="Icone de busca" /></span>
-            <input type="search" id="search" name="q" placeholder="Digite sua busca" />
-            <button type="submit">Search</button>
-            <!-- Botão de busca será oculto no css -->
-          </form>
+          <input type="search-filter" id="search-filter" name="search-filter" placeholder="Digite sua busca" />
+          <input type="button" id="btn-search" value="BUSCAR" />
+
+          <label for="search-filters1" id="search-filters" class="filters"></label>
+          <select id="search-filters1" name="search-filter">
+            <option selected value="all" disabled>
+              Tudo
+            </option>
+            <option value="name">Nome</option>
+            <option value="directorsName">Diretores</option>
+            <option value="movieGender">Gênero</option>
+
+          </select>
         </section>
+
         <section class="section-filters">
           <div class="container__ordering">
-            <label for="order" id="orderLabel" class="ordering"></label> 
+            <label for="order" id="orderLabel" class="ordering"></label>
             <select id="order" name="order">
               <option selected value="Classificação" disabled>
                 Classificação

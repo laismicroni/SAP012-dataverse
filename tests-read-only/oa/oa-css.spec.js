@@ -29,7 +29,7 @@ const renderDOM = (data) => {
     throw new Error('Error: renderItems should return an HTML string or an HTMLElement');
   }
 }
-      
+
 const getRulesForSelector = (selector) => {
   return rules.filter(
     (rule) =>
@@ -47,7 +47,7 @@ const getCSSDeclarationsForRules = (rules) => {
   }, []);
 }
 
-// get css for an el's classes 
+// get css for an el's classes
 // returns in format [{ 'display': 'block' }, { 'justify-content': 'center'}];
 const getDeclarationsForElClasses = (el) => {
   const elClasses = Array.from(el.classList.values());
@@ -66,7 +66,7 @@ describe('CSS', () => {
     beforeEach(() => {
       renderDOM(fakeData);
     });
-    
+
     it('elementos <li> tienen un class con CSS', () => {
       const elementsLi = document.querySelectorAll('#root > ul > li');
       // all lis should have same classes since rendered dinamically
@@ -107,7 +107,7 @@ describe('CSS', () => {
       const cssForClasses = getDeclarationsForElClasses(ul);
       const cssDeclarations = [...cssForClasses, ...cssForId, ...cssForTag];
 
-      // expect to have display: flex 
+      // expect to have display: flex
       expect(
         cssDeclarations.some((declaration) => {
           const [ flexboxProperty, flexboxValue ] = FLEXBOX_DECLARATION;
@@ -142,10 +142,10 @@ describe('CSS', () => {
         const select1Parents = parents(selects[0]);
         const select2Parents = parents(selects[1]);
         const commonParent = select1Parents.find((node) => select2Parents.includes(node));
-        
+
         const cssForTag = getCSSDeclarationsForRules(getRulesForSelector(commonParent.tagName.toLowerCase()));
         const cssForId = getCSSDeclarationsForRules(getRulesForSelector(`#${commonParent.id}`));
-        
+
         const cssForClasses = getDeclarationsForElClasses(commonParent);
         const allCSSDeclarations = [...cssForId, ...cssForTag, ...cssForClasses];
         expect(allCSSDeclarations.some((declaration) => {
@@ -157,15 +157,17 @@ describe('CSS', () => {
     });
   });
 
-  describe('Modelo de caja (box model)', () => {  
+  describe('Modelo de caja (box model)', () => {
     it('Se usan atributos de modelo de caja en clase CSS para <li>', () => {
       const elementsLi = document.querySelectorAll('#root > ul > li');
+
       elementsLi.forEach((li) => {
+
         expect(
           getDeclarationsForElClasses(li).some((declaration) => {
             const [ property ] = Object.entries(declaration)[0];
             return BOX_MODEL_ATTRIBUTES.some(attr => property.startsWith(attr));
-          })        
+          })
         ).toBe(true);
       });
     });

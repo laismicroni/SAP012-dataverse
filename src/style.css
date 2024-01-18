@@ -73,7 +73,7 @@ nav {
 .section-search {
   display: flex;
   justify-content: flex-end; /* Alterado para flex-end para alinhar à direita */
-  align-items: flex-end; /* Alterado para flex-end para alinhar à direita */
+  /* align-items: flex-end; Alterado para flex-end para alinhar à direita */
   margin: 0 auto;
   text-align: right;
   margin-bottom: 20px; /* Adicionado espaço inferior */
@@ -89,7 +89,7 @@ nav {
   color: #6a738d;
 }
 
-.section-search form button {
+.section-search button {
   display: none;
 }
 
@@ -101,7 +101,7 @@ nav {
   position: relative;
 }
 
-.section-filters {
+.section-search, .section-filters {
   display: flex;
   justify-content: flex-end; /* Alterado para flex-end para alinhar à direita */
   align-items: flex-end; /* Alterado para flex-end para alinhar à direita */
@@ -116,11 +116,11 @@ select#order {
   padding: 2px;
   border: none;
 }
-.section-filters select:focus {
+.section-search .section-filters select:focus {
   outline: none;
 }
-.section-filters select::-ms-expand,
-.section-filters select::-ms-expand {
+.section-search .section-filters select::-ms-expand,
+.section-search, .section-filters select::-ms-expand {
   width: 15px;
 }
 
@@ -143,6 +143,7 @@ h1 {
   padding-left: 27px;
   margin-bottom: -250px;
   font-weight: 700;
+  max-width: 365px;
 }
 
 h1::before {
@@ -188,6 +189,7 @@ dl {
 
 .container__card {
   display: flex;
+  border: none;
 }
 
 .content__card {
@@ -235,6 +237,9 @@ button {
 
 .btn-verMais {
   width: 100%;
+}
+#btn-search{
+  display: none;
 }
 
 form {
