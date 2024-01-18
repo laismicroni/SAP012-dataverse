@@ -1,20 +1,20 @@
-import { Filtros } from './dataFunctions.js';
+// import { Filtros } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
 const movieCard = document.getElementById("root");
-movieCard.appendChild(renderItems(data));
+const btnLimpar = document.getElementById("btn-limpar");
 
-//Filtros
-const limparBotao = document.getElementById("#btn-limpar");
-
-//Função para atualizar os Filtros
-const atualizarFiltros = () => {
-  movieCard.innerHTML = "";
-  movieCard.appendChild(renderItems(Filtros));
-
-  // Atualizar ou limpar o botão de limpar
-  limparBotao.addEventListener("click", atualizarFiltros);
+const limparFunction = () => {
+  console.log("Vai limpar filtro");
 }
-limparBotao.addEventListener("click", atualizarFiltros);
+
+document.addEventListener("DOMContentLoaded", () => {
+  movieCard.appendChild(renderItems(data));
+
+  btnLimpar.addEventListener("click", limparFunction);
+
+})
+
+
