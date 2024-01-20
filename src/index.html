@@ -3,18 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- icones  -->
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-  <script src="https://kit.fontawesome.com/7c129e136e.js" crossorigin="anonymous"></script>-->
-  <!-- Favicon -->
   <link rel="icon" href="./favicon.png" type="image/png" />
-
-  <title>Dataverse</title>
+  <title>Best Movies - Dataverse</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -37,47 +27,36 @@
       <!-- Section Filtros -->
       <div class="filtros">
         <section class="section-search">
-          <input type="search-filter" id="search-filter" name="search-filter" placeholder="Digite sua busca" />
-          <input type="button" id="btn-search" value="BUSCAR" />
-
-          <label for="search-filters1" id="search-filters" class="filters"></label>
-          <select id="search-filters1" name="search-filter">
-            <option selected value="all" disabled>
-              Tudo
-            </option>
-            <option value="name">Nome</option>
-            <option value="directorsName">Diretores</option>
-            <option value="movieGender">Gênero</option>
+          <label for="search-filters1" id="search-filters" class="filters">Filtrar por:</label>
+            <select id="filters" name="search-filter" data-testid="select-filter" >
+              <option value="movieGender" selected disabled >Gênero</option>
+              <option value="drama">Drama</option>
+              <option value="policial">Policial</option>
+              <option value="acao">Ação</option>
+              <option value="aventura">Aventura</option>
+              <option value="fantasia">Fantasia</option>
+              <option value="biografia">Biografia</option>
+              <option value="hitoria">História</option>
+              <option value="romance">Romance</option>
+              <option value="ficcao_cientifica">Ficção Científica</option>
+              <option value="faroeste">Faroeste</option>
+              <option value="crime">Crime</option>
+              <option value="misterio">Mistério</option>
+              </select>
+          <label for="ordenar" >Ordenar por:</label>
+          <select id="order" name="search-filter">
+            <option value="todos">★</option>
+            <option value="asc">Maior Nota</option>
+            <option value="desc">Menor Nota</option>
 
           </select>
+
+          <button id="btn-limpar" data-testid="botao-limpar">
+            Limpar Filtros
+          </button>
         </section>
 
-        <section class="section-filters">
-          <div class="container__ordering">
-            <label for="order" id="orderLabel" class="ordering"></label>
-            <select id="order" name="order">
-              <option selected value="Classificação" disabled>
-                Classificação
-              </option>
-              <option value="avaliacao">Avaliação</option>
-              <option value="data">Data de Lançamento</option>
-              <option value="alfabetica">Alfabética</option>
-              <option value="genero">Gênero</option>
-              <option value="duracao">Tempo de Duração</option>
-            </select>
 
-            <a href="" class="ordenacao__icones">
-              <img id="orderIcon" src="./img/icon-arow.svg" alt="Icon ordenação" />
-              <!-- Icone de ordenação - trocar depois pela setinha certa -->
-            </a>
-
-            <button id="btn-limpar" data-testid="botao-limpar">
-              Limpar Filtros
-            </button>
-          </div>
-        </section>
-      </div>
-    </nav>
     <!-- Section Cards -->
     <section id="root">
       <!--aqui vamos puxar os cards-->

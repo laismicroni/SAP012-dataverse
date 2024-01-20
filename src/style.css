@@ -61,22 +61,13 @@ main {
 
 nav {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .filtros {
   display: flex;
   flex-direction: column;
-}
-
-.section-search {
-  display: flex;
-  justify-content: flex-end; /* Alterado para flex-end para alinhar à direita */
-  /* align-items: flex-end; Alterado para flex-end para alinhar à direita */
-  margin: 0 auto;
-  text-align: right;
-  margin-bottom: 20px; /* Adicionado espaço inferior */
 }
 
 .section-search form input {
@@ -89,10 +80,6 @@ nav {
   color: #6a738d;
 }
 
-.section-search button {
-  display: none;
-}
-
 .fa-search {
   color: #2d2d37;
   width: 24px;
@@ -101,24 +88,29 @@ nav {
   position: relative;
 }
 
-.section-search, .section-filters {
+.section-search,
+.section-filters {
   display: flex;
-  justify-content: flex-end; /* Alterado para flex-end para alinhar à direita */
-  align-items: flex-end; /* Alterado para flex-end para alinhar à direita */
-  margin: 0 auto;
-  text-align: right;
-  margin-bottom: 20px; /* Adicionado espaço inferior */
+    text-align: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
+select#filters,
 select#order {
-  font-size: 24px;
+  font-size: 18px;
   color: #2d2d37;
-  padding: 2px;
+  padding: 5px;
   border: none;
+  margin: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
 }
-.section-search .section-filters select:focus {
+/* .section-search .section-filters select:focus {
   outline: none;
-}
+} */
 .section-search .section-filters select::-ms-expand,
 .section-search, .section-filters select::-ms-expand {
   width: 15px;
@@ -190,6 +182,7 @@ dl {
 .container__card {
   display: flex;
   border: none;
+  flex-wrap: wrap;
 }
 
 .content__card {
@@ -209,8 +202,7 @@ dl {
 }
 
 label {
-  margin-right: 10px;
-  font-size: 24px;
+  font-size: 20px;
   color: #2d2d37;
 }
 #order {
@@ -233,6 +225,12 @@ button {
   padding: 8px 16px;
   cursor: pointer;
   font-weight: bold;
+}
+
+#btn-limpar {
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 5px;
 }
 
 .btn-verMais {
@@ -323,7 +321,7 @@ footer p {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
   main {
   }
 
@@ -337,3 +335,7 @@ footer p {
   form {
   }
 }
+
+/* .container__card {
+  justify-content: center;
+} */
