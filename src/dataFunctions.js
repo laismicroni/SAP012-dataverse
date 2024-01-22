@@ -12,8 +12,8 @@ export const sortData = (data, sortBy, sortOrder) => {
   const orderMultiplier = sortOrder === 'asc' ? 1 : -1;
 
   data.sort((a, b) => {
-    const valueA = a[sortBy];
-    const valueB = b[sortBy];
+    const valueA = a.facts[sortBy];
+    const valueB = b.facts[sortBy];
 
     if (valueA < valueB) {
       return -1 * orderMultiplier;
