@@ -41,7 +41,7 @@ export default [
       "imDbRating": 9.0,
       "directorsName": "Christopher Nolan",
       "movieStars": "Christian Bale, Heath Ledger",
-      "movieGender": "Ação, Policial, Drama"
+      "movieGender": "Policial, Drama"
     }
   },
   {
@@ -86,7 +86,7 @@ export default [
       "imDbRating": 8.9,
       "directorsName": "Steven Spielberg",
       "movieStars": "Liam Neeson, Ben Kingsley",
-      "movieGender": "Biografia, Drama, História"
+      "movieGender": "Biografia, Drama"
     }
   },
   {
@@ -101,7 +101,7 @@ export default [
       "imDbRating": 8.9,
       "directorsName": "Peter Jackson",
       "movieStars": "Elijah Wood, Viggo Mortensen",
-      "movieGender": "Ação, Aventura, Fantasia"
+      "movieGender": "Aventura, Fantasia"
     }
   },
   {
@@ -131,7 +131,7 @@ export default [
       "imDbRating": 8.8,
       "directorsName": "Peter Jackson",
       "movieStars": "Elijah Wood, Ian McKellen",
-      "movieGender": "Ação, Aventura, Fantasia"
+      "movieGender": "Aventura, Fantasia"
 
     }
   },
@@ -192,7 +192,7 @@ export default [
       "imDbRating": 8.7,
       "directorsName": "Peter Jackson",
       "movieStars": "Elijah Wood, Ian McKellen",
-      "movieGender": "Ação, Aventura, Fantasia"
+      "movieGender": "Aventura, Fantasia"
     }
   },
   {
@@ -207,7 +207,7 @@ export default [
       "imDbRating": 8.8,
       "directorsName": "Christopher Nolan",
       "movieStars": "Leonardo DiCaprio, Joseph Gordon-Levitt",
-      "movieGender": "Ação, Aventura, Ficção Científica"
+      "movieGender": "Aventura, Syfy"
     }
   },
   {
@@ -222,14 +222,14 @@ export default [
       "imDbRating": 8.7,
       "directorsName": "Irvin Kershner",
       "movieStars": "Mark Hamill, Harrison Ford",
-      "movieGender": "Ação, Aventura, Fantasia"
+      "movieGender": "Aventura, Fantasia"
     }
   },
   {
     "id": "the-matrix",
     "name": "Matrix",
     "shortDescription": "Neo descobre a verdade sobre a realidade em um mundo controlado por máquinas.",
-    "description": "Matrix, dirigido pelos irmãos Wachowski, é um marco na ficção científica que desafia a percepção da realidade. Lançado em 1999, o filme segue Neo, interpretado por Keanu Reeves, enquanto ele descobre a verdade por trás da realidade virtual que o aprisiona. Com uma pontuação de 8.7 no IMDb, Matrix é conhecido por seus efeitos visuais inovadores, sequências de ação memoráveis e complexidade filosófica. A narrativa envolvente e a influência duradoura solidificam Matrix como uma obra-prima moderna e um divisor de águas no cinema.",
+    "description": "Matrix, dirigido pelos irmãos Wachowski, é um marco na Syfy que desafia a percepção da realidade. Lançado em 1999, o filme segue Neo, interpretado por Keanu Reeves, enquanto ele descobre a verdade por trás da realidade virtual que o aprisiona. Com uma pontuação de 8.7 no IMDb, Matrix é conhecido por seus efeitos visuais inovadores, sequências de ação memoráveis e complexidade filosófica. A narrativa envolvente e a influência duradoura solidificam Matrix como uma obra-prima moderna e um divisor de águas no cinema.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
     "facts": {
       "releaseYear": 1999,
@@ -237,7 +237,7 @@ export default [
       "imDbRating": 8.7,
       "directorsName": "The Wachowskis",
       "movieStars": "Keanu Reeves, Laurence Fishburne",
-      "movieGender": "Ação, Ficção Científica"
+      "movieGender": "Syfy"
     }
   },
   {
@@ -282,7 +282,7 @@ export default [
       "imDbRating": 8.6,
       "directorsName": "David Fincher",
       "movieStars": "Brad Pitt, Morgan Freeman",
-      "movieGender": "Crime, Drama, Mistério"
+      "movieGender": "Crime, Drama"
     }
   },
   {
@@ -312,7 +312,7 @@ export default [
       "imDbRating": 8.6,
       "directorsName": "Akira Kurosawa",
       "movieStars": "Toshiro Mifune, Takashi Shimura",
-      "movieGender": "Ação, drama"
+      "movieGender": "Drama"
     }
   },
   {
@@ -327,7 +327,7 @@ export default [
       "imDbRating": 8.6,
       "directorsName": "Christopher Nolan",
       "movieStars": "Matthew McConaughey, Anne Hathaway",
-      "movieGender": "Aventura, Ficção Científica"
+      "movieGender": "Aventura, Syfy"
     }
   },
   {
