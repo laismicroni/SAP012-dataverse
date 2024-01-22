@@ -1,32 +1,34 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-export const Filtros = () => {
-  return 'Filtros';
+export const filterData = (data, filterBy, value) => {
+  const result = data.filter((item) => item.facts[filterBy].toLowerCase().includes(value));
+  return result;
 };
-
-export const anotherExample = () => {
-  return [];
-};
-
 
 export const sortData = (data, sortBy, sortOrder) => {
-  const orderMultiplier = sortOrder === 'asc' ? 1 : -1;
+
+  const orderMultiplier = sortOrder === 'asc' ? -1 : 1;
 
   data.sort((a, b) => {
     const valueA = a.facts[sortBy];
     const valueB = b.facts[sortBy];
 
-    if (valueA < valueB) {
+    const numericValueA = parseFloat(valueA);
+    const numericValueB = parseFloat(valueB);
+
+    if (!isNaN(numericValueA) && !isNaN(numericValueB)) {
+      return (numericValueA - numericValueB) * orderMultiplier;
+    }
+    if (!isNaN(numericValueA) && isNaN(numericValueB)) {
       return -1 * orderMultiplier;
     }
-    if (valueA > valueB) {
+    if (numericValueA > numericValueB) {
       return 1 * orderMultiplier;
     }
     return 0;
   });
 
   return data;
-
 };
+
 
 
 
