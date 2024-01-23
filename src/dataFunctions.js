@@ -1,3 +1,9 @@
+export function moviesFiltered(dataset, movieGender) {
+  if(!movieGender){
+    return dataset;
+  }
+}
+
 export const filterData = (data, filterBy, value) => {
   const result = data.filter((item) => item.facts[filterBy].toLowerCase().includes(value));
   return result;
@@ -31,16 +37,7 @@ export const sortData = (data, sortBy, sortOrder) => {
 
 
 export const computeStats = (data) => {
-  const numberOfMovies = data.reduce((count, item) => {
-    if (typeof item === 'object' && item.name) {
-      count++;
-    }
-    return count;
-  }, 0);
-
-  return numberOfMovies;
+  const stats = data.map(item => item.facts.imDbRating).filter(value => !isNaN(value));
+  const count = stats.reduce((accumulator) => accumulator + 1, 0);
+  return count;
 }
-
-
-
-
