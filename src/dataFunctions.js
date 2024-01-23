@@ -30,5 +30,17 @@ export const sortData = (data, sortBy, sortOrder) => {
 };
 
 
+export const computeStats = (data) => {
+  const numberOfMovies = data.reduce((count, item) => {
+    if (typeof item === 'object' && item.name) {
+      count++;
+    }
+    return count;
+  }, 0);
+
+  return numberOfMovies;
+}
+
+
 
 

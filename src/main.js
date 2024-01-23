@@ -1,12 +1,12 @@
 import { renderItems } from './view.js';
-import { sortData } from './dataFunctions.js';
-import { filterData } from './dataFunctions.js';
+import { filterData, sortData, computeStats } from "./dataFunctions.js";
 import data from './data/dataset.js';
 
 const movieCard = document.querySelector("#root");
-// const btnLimpar = document.getElementById("btn-limpar");
+const btnLimpar = document.querySelector("#btn-limpar");
 const order = document.querySelector("#order");
 const filters = document.querySelector("#filters");
+const titlesLength = document.querySelector(".titles_length");
 
 let movieData = [...data];
 
@@ -45,3 +45,13 @@ filters.addEventListener("change", (e) => {
   movieCard.innerHTML = "";
   movieCard.appendChild(renderItems(movieData));
 })
+
+const numberOfMovies = computeStats(data);
+titlesLength.innerText = `${numberOfMovies} títulos`;
+console.log(numberOfMovies);
+
+
+ btnLimpar.addEventListener("click", () => {
+  movieCard.innerHTML = "";
+  movieCard.appendChild(renderItems(data)); 
+ })
