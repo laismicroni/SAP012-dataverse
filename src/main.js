@@ -13,8 +13,6 @@ function alterarBanner() {
   const larguraJanela = window.innerWidth;
   if (larguraJanela < 550) {
     imgBanner.src = 'img/banner-mobile.png';
-  } else {
-    imgBanner.src = 'img/banner.png';
   }
 }
 
@@ -46,7 +44,6 @@ order.addEventListener("change", (e) => {
   }
   movieCard.innerHTML = "";
   movieCard.appendChild(renderItems(movieData));
-  console.log(movieData);
 })
 
 
@@ -66,15 +63,14 @@ filters.addEventListener("change", (e) => {
 const totalMovies = (data) => {
   const numberOfMovies = computeStats(data);
   titlesLength.innerText = `${numberOfMovies} títulos`;
-  console.log(numberOfMovies);
 }
 
 btnLimpar.addEventListener("click", () => {
   movieData = [];
   totalMovies(data);
   movieCard.innerHTML = "";
-  movieCard.appendChild(renderItems(data));
   filters.value = "Todos";
   order.value = "todos";
+  movieCard.appendChild(renderItems(data));
 })
 
