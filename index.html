@@ -29,7 +29,7 @@
         <section class="section-search">
           <label for="filters" id="search-filters" class="filters">Filtrar por:</label>
           <select id="filters" name="search-filter" data-testid="select-filter">
-            <option value="Todos" selected>Gênero</option>
+            <option value="Todos" selected hidden disabled>Gênero</option>
             <option value="drama">Drama</option>
             <option value="policial">Policial</option>
             <option value="aventura">Aventura</option>
@@ -41,14 +41,14 @@
             <option value="crime">Crime</option>
           </select>
           <label for="order">Ordenar por:</label>
-          <select id="order" name="search-filter">
-            <option value="todos">★</option>
+          <select id="order" name="sort-order" data-testid="select-sort">
+            <option value="todos" hidden disabled>★</option>
             <option value="desc">Maior Nota</option>
             <option value="asc">Menor Nota</option>
 
           </select>
 
-          <button id="btn-limpar" data-testid="botao-limpar">
+          <button id="btn-limpar" data-testid="button-clear">
             Limpar Filtros
           </button>
         </section>
