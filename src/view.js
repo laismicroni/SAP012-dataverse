@@ -8,7 +8,7 @@ export const renderItems = (data) => {
         <div class="content__card">
           <dl itemscope itemtype="#">
             <dt><img src="${item.imageUrl}" alt="Imagem do Filme" itemprop="${item.name}" class="image__card" /></dt>
-            <dd itemprop="imDbRating" class="imDbRating">${item.facts.imDbRating}/10 <img src="./img/icon-star.svg" alt="Star icon" /></dd>
+            <dd itemprop="sort-order" class="imDbRating">${item.facts.imDbRating} /10 <img src="./img/icon-star.svg" alt="Star icon" /></dd>
             <dd itemprop="name" class="name__card">${item.name}</dd>
             <dd itemprop="releaseYear" class="releaseYear">${item.facts.releaseYear} - ${item.facts.runtimeStr}</dd>
             <!--<dd itemprop="runtimeStr" class="runtimeStr">${item.facts.runtimeStr}</dd>-->

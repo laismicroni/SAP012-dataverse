@@ -30,12 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 order.addEventListener("change", (e) => {
   const orderValue = e.target.value;
-  //movieData = [];
   movieData = sortData(movieData, "imDbRating", e.target.value);
-  // if (orderValue === "todos") {
-  //   movieData = [...data];
-  // }
-  // else 
   if (orderValue === "asc") {
     movieData = sortData(movieData, "imDbRating", "asc");
   }
@@ -66,7 +61,7 @@ const totalMovies = (data) => {
 }
 
 btnLimpar.addEventListener("click", () => {
-  movieData = [];
+  movieData = [...data];
   totalMovies(data);
   movieCard.innerHTML = "";
   filters.value = "Todos";
